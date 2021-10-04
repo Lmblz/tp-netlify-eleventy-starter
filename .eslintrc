@@ -6,6 +6,5 @@
   "parser": "@babel/eslint-parser",
   "plugins": ["babel", "prettier"],
   "rules": {
-    "prettier/prettier": "error"
-  }
+    "prettier/prettier": ["error", { "endOfLine": "auto" }]  }
 }
